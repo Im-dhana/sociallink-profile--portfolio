@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    #first{
+      background-color: rgba(0, 0, 0, 0.152);
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-content: center;
+      color: white;
+      padding: 140px;
+     
+    }
+    #second{
+      height: 300px;
+      width: 200px;
+      background-color:rgba(0, 0, 0, 0.805);
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+      padding: 90px;
+      border: none;
+      border-radius: 10px;
+    
+    }
+    img{
+      position: relative;
+      left: 50px;
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+    }
+    .contents{
+      font-weight: 400px;
+      background-color:rgba(128, 128, 128, 0.455);
+      border: none;
+      padding: 8px;
+      border-radius: 6px;
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400px;
+      font-size: 14px;
+
+    }
+    a{
+      text-decoration: none;
+      color: white;
+      
+    }
+    
+   
+    p{
+      font-size: 14px;
+      margin: 0%;
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600px;
+      font-style: normal;
+    }
+    #name{
+    color: hsl(0, 0%, 100%);
+    font-size:x-large;
+    font-weight: 700px;
+    
+   }
+    #country{
+      color:hsla(75,94%,57%, 0.932);
+      font-weight:600px;
+   }
+   
+   #details{
+    margin: 6px;
+    margin-bottom: 0%;
+   }
+   
+    .attribution { 
+      font-size: 11px;
+       text-align: center;
+       padding: 20px;
+       color: black;
+     }
+    .attribution a {
+       color: hsl(228, 45%, 44%); }
+
+       @media screen (min-width: 370px) and (max-width: 100px ){
+    #first{
+      padding:50%;
+    }
+    #second{
+      padding: 50%;
+    }
+    .contents{
+      padding: 50px;
+    }
+  }
+ 
+  </style>
+</head>
+<body>
+  <div id="first">
+    <div id="second">
+      <img src="./IMG_1460.JPG">
+   
+      <p id="name">Lanka Dhanunjay</p>
+   <p id="country">Mylavaram,India</p>
+  <p id="details">"Devloper"</p>
+  
+    <div class="contents"><a href="https://github.com/Im-dhana">Github</a></div>
+    <div class="contents"><a href="https://github.com/Im-dhana">Frontend Mentor</a></div>
+    <div class="contents"><a href="https://www.linkedin.com/in/dhanunjay-lanka-962b762a4">LinkedIn</a></div> 
+    <div class="contents"> <a href="https://x.com/DhanunjayLanka">Twitter</a></div> 
+    <div class="contents"><a href="https://www.instagram.com/lanka_dhanunjay?igsh=MWFjb2wxZXlmOGFzbg==">Instagram</a></div>
+    </div>
+  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Dhanunjay</a>.
+  </div>
+</div>
+</body>
+</html>
